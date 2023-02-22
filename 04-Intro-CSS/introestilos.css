@@ -1,0 +1,46 @@
+/*Estilos para colores*/
+.colores {
+    color: red;
+}
+
+.color-hexadecimal {
+    color: #840032;
+    font-size: 18pt;
+}
+
+.color-rgb {
+    color: rgb(100, 0, 200);
+    font-size: 18pt;
+}
+
+.color-rgba {
+    font-size: 18pt;
+    color: rgba(10, 10, 10, 0.2);
+}
+
+/*Fondos*/
+.fondo {
+    background-color: chartreuse;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFnLgKRMTQxjyIlINFTxrqteqLh4uS5c02JvYFE4H3&s");
+    background-position: center center;
+}
+.fondo-interno {
+    background-color: chartreuse;
+    background-image: url("Imagenes/wow.jpg");
+    background-position: center center;
+}
+.ancho {
+    background-color: #840032;
+    width: 100px;
+}
+.alto {
+    background-color: burlywood;
+    height: 200px;
+}
+.tarjeta{
+    border-style: solid;
+    border-color: rgb(150,152,150);
+    border-width: 1px;
+    /* border-top: none; */
+    padding: 10px;
+}
