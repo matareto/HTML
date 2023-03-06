@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 450px;
+}
+
+.buttons {
+    align-self: flex-start;
+    display: flex;
+    gap: 20px;
+}
+
+.google-btn {
+    background-color: #1A72E9;
+    color: #FFFEFD;
+    border: none;
+    border-radius: 4px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+}
+
+.google-btn:hover{
+    opacity: 0.80;
+    cursor: pointer;
+}
+
+.google-btn picture {
+    width: 36px;
+    height: 36px;
+    border-radius: 2px;
+    background-color: #FFFEFD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.google-btn picture img {
+    width: 55%;
+}
+
+.google-btn span {
+    color: #FFFEFD;
+    font-weight: 700;
+    padding: 15px;
+}
+
+.twitter-btn {
+    background-color: #F2F3F3;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 16px;
+    width: 40px;
+}
+
+.twitter-btn picture img {
+    width: 15px;
+    height: 20px;
+}
+
+.twitter-btn:hover {
+    cursor: pointer;
+    background-color: #ddd;
+}
+
+.separator {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+}
+
+.separator hr {
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid #E1E0E1;
+}
+
+.separator span {
+    color: #6E6C7B;
+}
+
+.section-inputs {
+    display: flex;
+    gap: 5px;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 30px;
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+label span {
+    font-weight: 700;
+}
+
+.section-inputs label input{
+    width: 80%;
+    background-color: #F3F2F5;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14pt;
+}
+
+label input{
+    width: 90%;
+    background-color: #F3F2F5;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+    transition: background-color .2s, border 0.2s
+}
+
+label input:hover {
+    background-color: #F9F9F9;
+    border: 1px solid #F9F9F9;
+    box-shadow: 0 0 4px #F2B3CD;
+}
+label input:focus {
+    background-color: #F9F9F9;
+    border: 1px solid #F9F9F9;
+    box-shadow: 0 0 4px #F2B3CD;
+}
+
+.checjbox-label{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.checjbox-label input[type="checkbox"] {
+    width: 20px;
+}
+
+.checjbox-label span {
+    font-weight: 500;
+}
+
+.submit-btn {
+    background-color: #EB4C88;
+    color: #FFFFEC;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    padding: 10px 16px;
+    font-size: 13pt;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.submit-btn:hover {
+    background-color: #F082AC;
+    color: #FEFEF2;
+    cursor: pointer;
+}
