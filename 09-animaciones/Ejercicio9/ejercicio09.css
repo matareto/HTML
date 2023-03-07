@@ -12,11 +12,15 @@ body{
     border-radius: 5px;
     padding: 5px 10px;
     cursor: pointer;
+    transition: all .4s;
 }
 
 .btn-modern:hover {
-    animation: modern 1s ease-in-out infinite;
-    transition: animation 0.4s;
+    animation: modern 1s ease-in-out;
+    /* transform: translateY(-5px);
+    background-color: #E5DADA;
+    color: #002642;
+    box-shadow: 1px 2px 3px #840032; */
 }
 
 @keyframes modern {
