@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200;400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+html{
+    background-color: #232528;
+    /* overflow: hidden; */
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    font-family: 'Varela Round', sans-serif;
+    color: #009FFD;
+    transition: all 0.2s;
+    border-radius: 10px;
+}
+
+a:hover{
+    background-color: #FFA400;
+    color: #232528;
+}
+
+.titulo {
+    text-align: center;
+    font-family: 'Stick No Bills', sans-serif;
+    font-weight: 800;
+    font-size: 2.5rem;
+    margin: 0;
+    padding: 0;
+    color: #FFA400;
+    text-decoration: underline;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 2rem;
+    align-items:center;
+    width: 99vw;
+    height: min-content;
+    /* background-color: #fff; */
+}
+
+.menu {
+    display: flex;
+    align-self: center;
+    height: 45vh;
+}
+
+.menu ul {
+    list-style: none;
+    width: 100%;
+    padding: 10px;
+    height: 100%;
+    margin: 0;
+    border-radius: 5px;
+    background-color: #2A2A72;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu ul li {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    padding: 5px 0px;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+.principal {
+    display: flex;
+    flex-grow: 1;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    background-color: #2A2A72;
+}
+
+.content {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1.1rem;
+    color:#FFA400;
+}
+
+@media (max-width: 640px) {
+    .main {
+        flex-direction: column;
+        position: relative;
+    }
+    .menu {
+        position: absolute;
+        bottom: -5.4rem;
+        margin-top: 20px;
+        align-self: center;
+        justify-self: flex-end;
+        width: 100%;
+        height: min-content;
+    }
+    .menu ul {
+        flex-direction: row;
+        gap:10px;
+    }
+}
